@@ -1,0 +1,607 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AF08FB162C23187A00E952C2 /* AppEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF08FB152C23187A00E952C2 /* AppEntity.swift */; };
+		AFE0AA872C1C938E003A6717 /* Second_Test_siri_appApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFE0AA862C1C938E003A6717 /* Second_Test_siri_appApp.swift */; };
+		AFE0AA892C1C938E003A6717 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFE0AA882C1C938E003A6717 /* ContentView.swift */; };
+		AFE0AA8B2C1C938F003A6717 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AFE0AA8A2C1C938F003A6717 /* Assets.xcassets */; };
+		AFE0AA8E2C1C938F003A6717 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AFE0AA8D2C1C938F003A6717 /* Preview Assets.xcassets */; };
+		AFE0AA982C1C938F003A6717 /* Second_Test_siri_appTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFE0AA972C1C938F003A6717 /* Second_Test_siri_appTests.swift */; };
+		AFE0AAA22C1C938F003A6717 /* Second_Test_siri_appUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFE0AAA12C1C938F003A6717 /* Second_Test_siri_appUITests.swift */; };
+		AFE0AAA42C1C938F003A6717 /* Second_Test_siri_appUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFE0AAA32C1C938F003A6717 /* Second_Test_siri_appUITestsLaunchTests.swift */; };
+		AFE0AAB12C1C93AF003A6717 /* sampleProdData.json in Resources */ = {isa = PBXBuildFile; fileRef = AFE0AAB02C1C93AF003A6717 /* sampleProdData.json */; };
+		AFE0AAB32C1C93EE003A6717 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFE0AAB22C1C93EE003A6717 /* Model.swift */; };
+		AFE0AAB52C1C9415003A6717 /* LoadData.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFE0AAB42C1C9415003A6717 /* LoadData.swift */; };
+		AFE0AAB72C1C97BD003A6717 /* FetchWellDataIntent.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFE0AAB62C1C97BD003A6717 /* FetchWellDataIntent.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AFE0AA942C1C938F003A6717 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AFE0AA7B2C1C938E003A6717 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AFE0AA822C1C938E003A6717;
+			remoteInfo = "Second Test siri app";
+		};
+		AFE0AA9E2C1C938F003A6717 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AFE0AA7B2C1C938E003A6717 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AFE0AA822C1C938E003A6717;
+			remoteInfo = "Second Test siri app";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		AF08FB152C23187A00E952C2 /* AppEntity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppEntity.swift; sourceTree = "<group>"; };
+		AFE0AA832C1C938E003A6717 /* Second Test siri app.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Second Test siri app.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AFE0AA862C1C938E003A6717 /* Second_Test_siri_appApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Second_Test_siri_appApp.swift; sourceTree = "<group>"; };
+		AFE0AA882C1C938E003A6717 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		AFE0AA8A2C1C938F003A6717 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AFE0AA8D2C1C938F003A6717 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		AFE0AA932C1C938F003A6717 /* Second Test siri appTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Second Test siri appTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AFE0AA972C1C938F003A6717 /* Second_Test_siri_appTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Second_Test_siri_appTests.swift; sourceTree = "<group>"; };
+		AFE0AA9D2C1C938F003A6717 /* Second Test siri appUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Second Test siri appUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AFE0AAA12C1C938F003A6717 /* Second_Test_siri_appUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Second_Test_siri_appUITests.swift; sourceTree = "<group>"; };
+		AFE0AAA32C1C938F003A6717 /* Second_Test_siri_appUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Second_Test_siri_appUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		AFE0AAB02C1C93AF003A6717 /* sampleProdData.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = sampleProdData.json; path = "../../Test Siri App/Test Siri App/sampleProdData.json"; sourceTree = "<group>"; };
+		AFE0AAB22C1C93EE003A6717 /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
+		AFE0AAB42C1C9415003A6717 /* LoadData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadData.swift; sourceTree = "<group>"; };
+		AFE0AAB62C1C97BD003A6717 /* FetchWellDataIntent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FetchWellDataIntent.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AFE0AA802C1C938E003A6717 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AFE0AA902C1C938F003A6717 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AFE0AA9A2C1C938F003A6717 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AFE0AA7A2C1C938E003A6717 = {
+			isa = PBXGroup;
+			children = (
+				AFE0AA852C1C938E003A6717 /* Second Test siri app */,
+				AFE0AA962C1C938F003A6717 /* Second Test siri appTests */,
+				AFE0AAA02C1C938F003A6717 /* Second Test siri appUITests */,
+				AFE0AA842C1C938E003A6717 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AFE0AA842C1C938E003A6717 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AFE0AA832C1C938E003A6717 /* Second Test siri app.app */,
+				AFE0AA932C1C938F003A6717 /* Second Test siri appTests.xctest */,
+				AFE0AA9D2C1C938F003A6717 /* Second Test siri appUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AFE0AA852C1C938E003A6717 /* Second Test siri app */ = {
+			isa = PBXGroup;
+			children = (
+				AFE0AA862C1C938E003A6717 /* Second_Test_siri_appApp.swift */,
+				AFE0AA882C1C938E003A6717 /* ContentView.swift */,
+				AFE0AAB02C1C93AF003A6717 /* sampleProdData.json */,
+				AFE0AAB22C1C93EE003A6717 /* Model.swift */,
+				AF08FB152C23187A00E952C2 /* AppEntity.swift */,
+				AFE0AAB42C1C9415003A6717 /* LoadData.swift */,
+				AFE0AA8A2C1C938F003A6717 /* Assets.xcassets */,
+				AFE0AAB62C1C97BD003A6717 /* FetchWellDataIntent.swift */,
+				AFE0AA8C2C1C938F003A6717 /* Preview Content */,
+			);
+			path = "Second Test siri app";
+			sourceTree = "<group>";
+		};
+		AFE0AA8C2C1C938F003A6717 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				AFE0AA8D2C1C938F003A6717 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		AFE0AA962C1C938F003A6717 /* Second Test siri appTests */ = {
+			isa = PBXGroup;
+			children = (
+				AFE0AA972C1C938F003A6717 /* Second_Test_siri_appTests.swift */,
+			);
+			path = "Second Test siri appTests";
+			sourceTree = "<group>";
+		};
+		AFE0AAA02C1C938F003A6717 /* Second Test siri appUITests */ = {
+			isa = PBXGroup;
+			children = (
+				AFE0AAA12C1C938F003A6717 /* Second_Test_siri_appUITests.swift */,
+				AFE0AAA32C1C938F003A6717 /* Second_Test_siri_appUITestsLaunchTests.swift */,
+			);
+			path = "Second Test siri appUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AFE0AA822C1C938E003A6717 /* Second Test siri app */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AFE0AAA72C1C938F003A6717 /* Build configuration list for PBXNativeTarget "Second Test siri app" */;
+			buildPhases = (
+				AFE0AA7F2C1C938E003A6717 /* Sources */,
+				AFE0AA802C1C938E003A6717 /* Frameworks */,
+				AFE0AA812C1C938E003A6717 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Second Test siri app";
+			productName = "Second Test siri app";
+			productReference = AFE0AA832C1C938E003A6717 /* Second Test siri app.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AFE0AA922C1C938F003A6717 /* Second Test siri appTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AFE0AAAA2C1C938F003A6717 /* Build configuration list for PBXNativeTarget "Second Test siri appTests" */;
+			buildPhases = (
+				AFE0AA8F2C1C938F003A6717 /* Sources */,
+				AFE0AA902C1C938F003A6717 /* Frameworks */,
+				AFE0AA912C1C938F003A6717 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AFE0AA952C1C938F003A6717 /* PBXTargetDependency */,
+			);
+			name = "Second Test siri appTests";
+			productName = "Second Test siri appTests";
+			productReference = AFE0AA932C1C938F003A6717 /* Second Test siri appTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		AFE0AA9C2C1C938F003A6717 /* Second Test siri appUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AFE0AAAD2C1C938F003A6717 /* Build configuration list for PBXNativeTarget "Second Test siri appUITests" */;
+			buildPhases = (
+				AFE0AA992C1C938F003A6717 /* Sources */,
+				AFE0AA9A2C1C938F003A6717 /* Frameworks */,
+				AFE0AA9B2C1C938F003A6717 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AFE0AA9F2C1C938F003A6717 /* PBXTargetDependency */,
+			);
+			name = "Second Test siri appUITests";
+			productName = "Second Test siri appUITests";
+			productReference = AFE0AA9D2C1C938F003A6717 /* Second Test siri appUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AFE0AA7B2C1C938E003A6717 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1540;
+				LastUpgradeCheck = 1540;
+				TargetAttributes = {
+					AFE0AA822C1C938E003A6717 = {
+						CreatedOnToolsVersion = 15.4;
+					};
+					AFE0AA922C1C938F003A6717 = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = AFE0AA822C1C938E003A6717;
+					};
+					AFE0AA9C2C1C938F003A6717 = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = AFE0AA822C1C938E003A6717;
+					};
+				};
+			};
+			buildConfigurationList = AFE0AA7E2C1C938E003A6717 /* Build configuration list for PBXProject "Second Test siri app" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AFE0AA7A2C1C938E003A6717;
+			productRefGroup = AFE0AA842C1C938E003A6717 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AFE0AA822C1C938E003A6717 /* Second Test siri app */,
+				AFE0AA922C1C938F003A6717 /* Second Test siri appTests */,
+				AFE0AA9C2C1C938F003A6717 /* Second Test siri appUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AFE0AA812C1C938E003A6717 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AFE0AA8E2C1C938F003A6717 /* Preview Assets.xcassets in Resources */,
+				AFE0AA8B2C1C938F003A6717 /* Assets.xcassets in Resources */,
+				AFE0AAB12C1C93AF003A6717 /* sampleProdData.json in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AFE0AA912C1C938F003A6717 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AFE0AA9B2C1C938F003A6717 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AFE0AA7F2C1C938E003A6717 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AF08FB162C23187A00E952C2 /* AppEntity.swift in Sources */,
+				AFE0AAB32C1C93EE003A6717 /* Model.swift in Sources */,
+				AFE0AA892C1C938E003A6717 /* ContentView.swift in Sources */,
+				AFE0AAB72C1C97BD003A6717 /* FetchWellDataIntent.swift in Sources */,
+				AFE0AA872C1C938E003A6717 /* Second_Test_siri_appApp.swift in Sources */,
+				AFE0AAB52C1C9415003A6717 /* LoadData.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AFE0AA8F2C1C938F003A6717 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AFE0AA982C1C938F003A6717 /* Second_Test_siri_appTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AFE0AA992C1C938F003A6717 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AFE0AAA22C1C938F003A6717 /* Second_Test_siri_appUITests.swift in Sources */,
+				AFE0AAA42C1C938F003A6717 /* Second_Test_siri_appUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AFE0AA952C1C938F003A6717 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AFE0AA822C1C938E003A6717 /* Second Test siri app */;
+			targetProxy = AFE0AA942C1C938F003A6717 /* PBXContainerItemProxy */;
+		};
+		AFE0AA9F2C1C938F003A6717 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AFE0AA822C1C938E003A6717 /* Second Test siri app */;
+			targetProxy = AFE0AA9E2C1C938F003A6717 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		AFE0AAA52C1C938F003A6717 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		AFE0AAA62C1C938F003A6717 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AFE0AAA82C1C938F003A6717 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Second Test siri app/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.faithlee.Second-Test-siri-app";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AFE0AAA92C1C938F003A6717 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Second Test siri app/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.faithlee.Second-Test-siri-app";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		AFE0AAAB2C1C938F003A6717 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.faithlee.Second-Test-siri-appTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Second Test siri app.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Second Test siri app";
+			};
+			name = Debug;
+		};
+		AFE0AAAC2C1C938F003A6717 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.faithlee.Second-Test-siri-appTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Second Test siri app.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Second Test siri app";
+			};
+			name = Release;
+		};
+		AFE0AAAE2C1C938F003A6717 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.faithlee.Second-Test-siri-appUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Second Test siri app";
+			};
+			name = Debug;
+		};
+		AFE0AAAF2C1C938F003A6717 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.faithlee.Second-Test-siri-appUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Second Test siri app";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AFE0AA7E2C1C938E003A6717 /* Build configuration list for PBXProject "Second Test siri app" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AFE0AAA52C1C938F003A6717 /* Debug */,
+				AFE0AAA62C1C938F003A6717 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AFE0AAA72C1C938F003A6717 /* Build configuration list for PBXNativeTarget "Second Test siri app" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AFE0AAA82C1C938F003A6717 /* Debug */,
+				AFE0AAA92C1C938F003A6717 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AFE0AAAA2C1C938F003A6717 /* Build configuration list for PBXNativeTarget "Second Test siri appTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AFE0AAAB2C1C938F003A6717 /* Debug */,
+				AFE0AAAC2C1C938F003A6717 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AFE0AAAD2C1C938F003A6717 /* Build configuration list for PBXNativeTarget "Second Test siri appUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AFE0AAAE2C1C938F003A6717 /* Debug */,
+				AFE0AAAF2C1C938F003A6717 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AFE0AA7B2C1C938E003A6717 /* Project object */;
+}
