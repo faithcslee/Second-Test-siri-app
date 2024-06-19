@@ -5,6 +5,8 @@
 //  Created by Travis Wadman on 6/14/24.
 //
 
+
+/*
 import Foundation
 
 struct WellData: Codable {
@@ -12,7 +14,13 @@ struct WellData: Codable {
     let date: String
     let production: Int
 }
-
+*/
+ 
+ 
+ 
+ 
+ 
+ 
 /*
 import Foundation
 

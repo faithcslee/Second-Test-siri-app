@@ -4,7 +4,7 @@
 //
 //  Created by Travis Wadman on 6/14/24.
 //
-
+/*
 import Foundation
 
 func loadAndParseJSONData() -> [WellData]? {
@@ -46,4 +46,4 @@ func loadAndParseJSONData() -> [WellData]? {
     }
 }
     
-
+*/
