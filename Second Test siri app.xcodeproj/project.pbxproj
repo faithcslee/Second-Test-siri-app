@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		AF08FB162C23187A00E952C2 /* AppEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF08FB152C23187A00E952C2 /* AppEntity.swift */; };
+		AF08FB182C23465F00E952C2 /* AppShortcutProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF08FB172C23465F00E952C2 /* AppShortcutProvider.swift */; };
 		AFE0AA872C1C938E003A6717 /* Second_Test_siri_appApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFE0AA862C1C938E003A6717 /* Second_Test_siri_appApp.swift */; };
 		AFE0AA892C1C938E003A6717 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFE0AA882C1C938E003A6717 /* ContentView.swift */; };
 		AFE0AA8B2C1C938F003A6717 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AFE0AA8A2C1C938F003A6717 /* Assets.xcassets */; };
@@ -40,6 +41,7 @@
 
 /* Begin PBXFileReference section */
 		AF08FB152C23187A00E952C2 /* AppEntity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppEntity.swift; sourceTree = "<group>"; };
+		AF08FB172C23465F00E952C2 /* AppShortcutProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppShortcutProvider.swift; sourceTree = "<group>"; };
 		AFE0AA832C1C938E003A6717 /* Second Test siri app.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Second Test siri app.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		AFE0AA862C1C938E003A6717 /* Second_Test_siri_appApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Second_Test_siri_appApp.swift; sourceTree = "<group>"; };
 		AFE0AA882C1C938E003A6717 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -110,8 +112,9 @@
 				AFE0AAB22C1C93EE003A6717 /* Model.swift */,
 				AF08FB152C23187A00E952C2 /* AppEntity.swift */,
 				AFE0AAB42C1C9415003A6717 /* LoadData.swift */,
-				AFE0AA8A2C1C938F003A6717 /* Assets.xcassets */,
+				AF08FB172C23465F00E952C2 /* AppShortcutProvider.swift */,
 				AFE0AAB62C1C97BD003A6717 /* FetchWellDataIntent.swift */,
+				AFE0AA8A2C1C938F003A6717 /* Assets.xcassets */,
 				AFE0AA8C2C1C938F003A6717 /* Preview Content */,
 			);
 			path = "Second Test siri app";
@@ -273,6 +276,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AF08FB182C23465F00E952C2 /* AppShortcutProvider.swift in Sources */,
 				AF08FB162C23187A00E952C2 /* AppEntity.swift in Sources */,
 				AFE0AAB32C1C93EE003A6717 /* Model.swift in Sources */,
 				AFE0AA892C1C938E003A6717 /* ContentView.swift in Sources */,
