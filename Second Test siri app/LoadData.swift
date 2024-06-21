@@ -8,7 +8,7 @@
 import Foundation
 
 struct WellData: Identifiable {
-    let id = UUID()
+    let id: UUID
     let wellName: String
     let date: String
     let production: Int
@@ -32,7 +32,7 @@ func loadAndParseJSONData() -> [WellData] {
                let wellName = entry[0] as? String,
                let date = entry[1] as? String,
                let production = entry[2] as? Int {
-                return WellData(wellName: wellName, date: date, production: production)
+                return WellData(id: UUID(), wellName: wellName, date: date, production: production)
             }
             return nil
         }
