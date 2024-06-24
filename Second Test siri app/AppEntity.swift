@@ -6,13 +6,14 @@
 //
 
 import AppIntents
+import Foundation
 
 struct WellProd: AppEntity {
-    static var typeDisplayRepresentation: TypeDisplayRepresentation = "Well Production"
+    static var typeDisplayRepresentation: TypeDisplayRepresentation = "Well"
     
     static var defaultQuery = WellProdQuery()
 
-    let id: UUID
+    var id: WellData.ID
     
     @Property(title: "Well Name")
     var wellName: String
@@ -27,15 +28,15 @@ struct WellProd: AppEntity {
         DisplayRepresentation(
             title: "\(wellName)",
             subtitle: "\(date)",
-            image: nil
+            image: DisplayRepresentation.Image(named: "magnifyingglass.circle")
         )
     }
     
-    init(wellData: WellData) {
-        self.id = wellData.id
-        self.wellName = wellData.wellName
-        self.date = wellData.date
-        self.production = wellData.production
+    init(well: WellData) {
+        self.id = well.id
+        self.wellName = well.wellName
+        self.date = well.date
+        self.production = well.production
     }
 }
 

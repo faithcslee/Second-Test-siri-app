@@ -5,7 +5,7 @@
 //  Created by Travis Wadman on 6/19/24.
 //
 
-/*
+
 import AppIntents
 
 class FetchValueShortcuts: AppShortcutsProvider {
@@ -20,5 +20,8 @@ class FetchValueShortcuts: AppShortcutsProvider {
         )
     }
 }
-
+/*
+func didCreateOrDeleteWellData() {
+    AppShorcutsProvider.updateAppShortcutParameters()
+}
 */
