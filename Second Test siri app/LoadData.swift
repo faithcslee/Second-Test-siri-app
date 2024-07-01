@@ -37,12 +37,24 @@ func loadAndParseJSONData() -> [WellData] {
             return nil
         }
         
+        print("Parsed Well Data: \(wellDataArray)")
         return wellDataArray
     } catch {
         print("Error reading or parsing the JSON file: \(error)")
         return []
     }
 }
+
+
+
+
+
+
+
+
+
+
+
 
 /*
 import Foundation

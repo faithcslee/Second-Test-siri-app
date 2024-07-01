@@ -20,8 +20,3 @@ class FetchValueShortcuts: AppShortcutsProvider {
         )
     }
 }
-/*
-func didCreateOrDeleteWellData() {
-    AppShorcutsProvider.updateAppShortcutParameters()
-}
-*/

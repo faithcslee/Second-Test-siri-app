@@ -10,64 +10,64 @@ import AppIntents
 struct FetchWellDataIntent: AppIntent {
     static var title: LocalizedStringResource = "Fetch Well Data by Intent"
     static var description = IntentDescription("Fetches the production value for a given well name from a JSON file.")
-
+    
     @Parameter(title: "Well")
     var well: WellProd
-
+    
     static var parameterSummary: some ParameterSummary {
         Summary("Fetch value for \(\.$well)")
     }
     
     @MainActor
     func perform() async throws -> some IntentResult & ReturnsValue<String> & ProvidesDialog {
-        
-        let entities = try await WellProd.defaultQuery.entities(matching: well.wellName)
-        
-        if let wellProd = entities.first {
-            let dialog = IntentDialog("The production value for \(well.wellName) is \(wellProd.production).")
-            return .result(value: "\(wellProd.production)", dialog: dialog)
-        } else {
-            let dialog = IntentDialog("The production value for \(well.wellName) was not found.")
-            return .result(value: "", dialog: dialog)
+            print("Fetching data for well: \(well.wellName)")
+            
+            let entities = try await WellProd.defaultQuery.entities(matching: well.wellName)
+            
+            if let wellProd = entities.first {
+                let dialog = IntentDialog("The production value for \(well.wellName) is \(wellProd.production).")
+                print("Production value found: \(wellProd.production)")
+                return .result(value: "\(wellProd.production)", dialog: dialog)
+            } else {
+                let dialog = IntentDialog("The production value for \(well.wellName) was not found.")
+                print("Production value not found for \(well.wellName)")
+                return .result(value: "", dialog: dialog)
+            }
         }
-        
-        
-        
-
-        
-        /* let wellDataArray = loadAndParseJSONData()
-        let specificWellDataArray = wellDataArray.filter { $0.wellName.contains(well.wellName) }
-        
-        guard let specificWellData = specificWellDataArray.first else {
-            return .result(value: "Well not found", dialog: "The well with name \(well.wellName) was not found.")
-        }
-        
-        let specificWellProd = WellProd(wellData: specificWellData)
-        let productionValue = specificWellProd.production
-        
-        return .result(value: "\(productionValue)", dialog: "The production value for well \(well.wellName) is \(productionValue).")
- 
-        
-        
-        --------------------------------------------------------
-       
-        
-        
-        
-        // Fetch entities matching the wellName using WellProdQuery
-        let entities = try await WellProd.defaultQuery.entities(matching: well.wellName)
-        
-        if let wellProd = entities.first {
-            let dialog = IntentDialog("The production value for \(well) is \(wellProd.production).")
-            return .result(value: "\(wellProd.production)", dialog: dialog)
-        } else {
-            let dialog = IntentDialog("The production value for \(well) was not found.")
-            return .result(value: "", dialog: dialog)
-        }*/
-    }
 }
 
 
+/* let wellDataArray = loadAndParseJSONData()
+let specificWellDataArray = wellDataArray.filter { $0.wellName.contains(well.wellName) }
+
+guard let specificWellData = specificWellDataArray.first else {
+    return .result(value: "Well not found", dialog: "The well with name \(well.wellName) was not found.")
+}
+
+let specificWellProd = WellProd(wellData: specificWellData)
+let productionValue = specificWellProd.production
+
+return .result(value: "\(productionValue)", dialog: "The production value for well \(well.wellName) is \(productionValue).")
+
+
+
+--------------------------------------------------------
+
+
+
+
+// Fetch entities matching the wellName using WellProdQuery
+let entities = try await WellProd.defaultQuery.entities(matching: well.wellName)
+
+if let wellProd = entities.first {
+    let dialog = IntentDialog("The production value for \(well) is \(wellProd.production).")
+    return .result(value: "\(wellProd.production)", dialog: dialog)
+} else {
+    let dialog = IntentDialog("The production value for \(well) was not found.")
+    return .result(value: "", dialog: dialog)
+}*/
+
+//-----------------------------------------------------
 
 
 
