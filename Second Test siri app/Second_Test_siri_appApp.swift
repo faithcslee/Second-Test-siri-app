@@ -10,7 +10,7 @@ import SwiftUI
 @main
 struct Second_Test_siri_appApp: App {
     init() {
-        didUpdateParameters()
+        didUpdateParameters() // Siri won't recognize app shortcut phrases without calling this method
     }
     var body: some Scene {
         WindowGroup {

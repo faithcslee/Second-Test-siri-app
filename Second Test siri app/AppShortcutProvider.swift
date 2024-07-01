@@ -20,6 +20,7 @@ class FetchValueShortcuts: AppShortcutsProvider {
     }
 }
 
+// We need to update parameters when values have changed, also when the app is first launched:
 func didUpdateParameters() {
     FetchValueShortcuts.updateAppShortcutParameters()
 }
