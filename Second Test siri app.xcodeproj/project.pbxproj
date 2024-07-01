@@ -17,7 +17,6 @@
 		AFE0AAA22C1C938F003A6717 /* Second_Test_siri_appUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFE0AAA12C1C938F003A6717 /* Second_Test_siri_appUITests.swift */; };
 		AFE0AAA42C1C938F003A6717 /* Second_Test_siri_appUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFE0AAA32C1C938F003A6717 /* Second_Test_siri_appUITestsLaunchTests.swift */; };
 		AFE0AAB12C1C93AF003A6717 /* sampleProdData.json in Resources */ = {isa = PBXBuildFile; fileRef = AFE0AAB02C1C93AF003A6717 /* sampleProdData.json */; };
-		AFE0AAB32C1C93EE003A6717 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFE0AAB22C1C93EE003A6717 /* Model.swift */; };
 		AFE0AAB52C1C9415003A6717 /* LoadData.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFE0AAB42C1C9415003A6717 /* LoadData.swift */; };
 		AFE0AAB72C1C97BD003A6717 /* FetchWellDataIntent.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFE0AAB62C1C97BD003A6717 /* FetchWellDataIntent.swift */; };
 /* End PBXBuildFile section */
@@ -53,7 +52,6 @@
 		AFE0AAA12C1C938F003A6717 /* Second_Test_siri_appUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Second_Test_siri_appUITests.swift; sourceTree = "<group>"; };
 		AFE0AAA32C1C938F003A6717 /* Second_Test_siri_appUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Second_Test_siri_appUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		AFE0AAB02C1C93AF003A6717 /* sampleProdData.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = sampleProdData.json; path = "../../Test Siri App/Test Siri App/sampleProdData.json"; sourceTree = "<group>"; };
-		AFE0AAB22C1C93EE003A6717 /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
 		AFE0AAB42C1C9415003A6717 /* LoadData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadData.swift; sourceTree = "<group>"; };
 		AFE0AAB62C1C97BD003A6717 /* FetchWellDataIntent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FetchWellDataIntent.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -109,7 +107,6 @@
 				AFE0AA862C1C938E003A6717 /* Second_Test_siri_appApp.swift */,
 				AFE0AA882C1C938E003A6717 /* ContentView.swift */,
 				AFE0AAB02C1C93AF003A6717 /* sampleProdData.json */,
-				AFE0AAB22C1C93EE003A6717 /* Model.swift */,
 				AF08FB152C23187A00E952C2 /* AppEntity.swift */,
 				AFE0AAB42C1C9415003A6717 /* LoadData.swift */,
 				AF08FB172C23465F00E952C2 /* AppShortcutProvider.swift */,
@@ -278,7 +275,6 @@
 			files = (
 				AF08FB182C23465F00E952C2 /* AppShortcutProvider.swift in Sources */,
 				AF08FB162C23187A00E952C2 /* AppEntity.swift in Sources */,
-				AFE0AAB32C1C93EE003A6717 /* Model.swift in Sources */,
 				AFE0AA892C1C938E003A6717 /* ContentView.swift in Sources */,
 				AFE0AAB72C1C97BD003A6717 /* FetchWellDataIntent.swift in Sources */,
 				AFE0AA872C1C938E003A6717 /* Second_Test_siri_appApp.swift in Sources */,

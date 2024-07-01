@@ -8,7 +8,7 @@
 import AppIntents
 
 struct FetchWellDataIntent: AppIntent {
-    static var title: LocalizedStringResource = "Fetch Well Data by Intent"
+    static var title: LocalizedStringResource = "Fetch Production"
     static var description = IntentDescription("Fetches the production value for a given well name from a JSON file.")
     
     @Parameter(title: "Well")

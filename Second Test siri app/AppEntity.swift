@@ -42,6 +42,22 @@ struct WellProd: AppEntity {
 
 struct WellProdQuery: EntityQuery {
     let wellDataArray = loadAndParseJSONData()
+    func entities(for identifiers: [WellProd.ID]) async throws -> [WellProd] {
+        return wellDataArray.filter { identifiers.contains($0.id) }.map(WellProd.init)
+    }
+
+    func suggestedEntities() async throws -> [WellProd] {
+        return wellDataArray.map(WellProd.init)
+    }
+
+    func entities(matching query: String) async throws -> [WellProd] {
+        return wellDataArray.filter { $0.wellName.contains(query) }.map(WellProd.init)
+    }
+}
+
+/* logging errors:
+struct WellProdQuery: EntityQuery {
+    let wellDataArray = loadAndParseJSONData()
     
     func entities(for identifiers: [WellProd.ID]) async throws -> [WellProd] {
         let result = wellDataArray.filter { identifiers.contains($0.id) }.map(WellProd.init)
@@ -61,22 +77,4 @@ struct WellProdQuery: EntityQuery {
         return result
     }
 }
-
-/*
-struct WellProdQuery: EntityQuery {
-    let wellDataArray = loadAndParseJSONData()
-    func entities(for identifiers: [WellProd.ID]) async throws -> [WellProd] {
-        //let wellDataArray = loadAndParseJSONData()
-        return wellDataArray.filter { identifiers.contains($0.id) }.map(WellProd.init)
-    }
-
-    func suggestedEntities() async throws -> [WellProd] {
-        //let wellDataArray = loadAndParseJSONData()
-        return wellDataArray.map(WellProd.init)
-    }
-
-    func entities(matching query: String) async throws -> [WellProd] {
-        //let wellDataArray = loadAndParseJSONData()
-        return wellDataArray.filter { $0.wellName.contains(query) }.map(WellProd.init)
-    }
-}*/
+*/

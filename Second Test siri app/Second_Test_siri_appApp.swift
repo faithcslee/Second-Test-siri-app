@@ -9,6 +9,9 @@ import SwiftUI
 
 @main
 struct Second_Test_siri_appApp: App {
+    init() {
+        didUpdateParameters()
+    }
     var body: some Scene {
         WindowGroup {
             ContentView()

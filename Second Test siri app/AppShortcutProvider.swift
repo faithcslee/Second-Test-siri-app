@@ -11,12 +11,16 @@ import AppIntents
 class FetchValueShortcuts: AppShortcutsProvider {
 
     static var appShortcuts: [AppShortcut] {
-        AppShortcut(intent: FetchWellDataIntent(), phrases: [
-            "Fetch production for \(\.$well) in \(.applicationName)",
-            "Get production for \(\.$well) in \(.applicationName)"
-            ],
+        AppShortcut(
+            intent: FetchWellDataIntent(),
+            phrases: ["Get production for \(\.$well) in \(.applicationName)"],
             shortTitle: "Fetch Production",
             systemImageName: "magnifyingglass.circle"
         )
     }
 }
+
+func didUpdateParameters() {
+    FetchValueShortcuts.updateAppShortcutParameters()
+}
+
